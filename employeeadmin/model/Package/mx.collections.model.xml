@@ -1,0 +1,38 @@
+<fr.echoeslabs.rapid.core.metamodel.Entity>
+  <key>mx.collections</key>
+  <relationshipList class="linked-hash-set">
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>mx.collections</fromEntity>
+      <relationName>includes</relationName>
+      <toEntity>mx.collections.ArrayCollection</toEntity>
+      <typeID>
+        <key>Component</key>
+      </typeID>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+  </relationshipList>
+  <type>
+    <key>Package</key>
+  </type>
+  <attributes>
+    <entry>
+      <string>c_name</string>
+      <string>mx.collections</string>
+    </entry>
+    <entry>
+      <string>c_namespace_id</string>
+      <string>mx collections</string>
+    </entry>
+    <entry>
+      <string>c_namespace_camel</string>
+      <string>MxCollections</string>
+    </entry>
+    <entry>
+      <string>c_selector</string>
+      <string>mx-collections</string>
+    </entry>
+    <entry>
+      <string>c_segment</string>
+      <string-array/>
+    </entry>
+  </attributes>
+</fr.echoeslabs.rapid.core.metamodel.Entity>

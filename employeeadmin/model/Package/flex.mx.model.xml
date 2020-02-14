@@ -1,0 +1,172 @@
+<fr.echoeslabs.rapid.core.metamodel.Entity>
+  <key>flex.mx</key>
+  <relationshipList class="linked-hash-set">
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>flex.mx</fromEntity>
+      <relationName>associates</relationName>
+      <toEntity>2006.mxml</toEntity>
+      <typeID>
+        <key>Namespace</key>
+      </typeID>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>flex.mx</fromEntity>
+      <relationName>includes</relationName>
+      <toEntity>flex.mx.Panel</toEntity>
+      <typeID>
+        <key>Component</key>
+      </typeID>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>flex.mx</fromEntity>
+      <relationName>includes</relationName>
+      <toEntity>flex.mx.Metadata</toEntity>
+      <typeID reference="../../fr.echoeslabs.rapid.core.metamodel.Relationship[2]/typeID"/>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>flex.mx</fromEntity>
+      <relationName>includes</relationName>
+      <toEntity>flex.mx.Script</toEntity>
+      <typeID reference="../../fr.echoeslabs.rapid.core.metamodel.Relationship[2]/typeID"/>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>flex.mx</fromEntity>
+      <relationName>includes</relationName>
+      <toEntity>flex.mx.Form</toEntity>
+      <typeID reference="../../fr.echoeslabs.rapid.core.metamodel.Relationship[2]/typeID"/>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>flex.mx</fromEntity>
+      <relationName>includes</relationName>
+      <toEntity>flex.mx.FormItem</toEntity>
+      <typeID reference="../../fr.echoeslabs.rapid.core.metamodel.Relationship[2]/typeID"/>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>flex.mx</fromEntity>
+      <relationName>includes</relationName>
+      <toEntity>flex.mx.TextInput</toEntity>
+      <typeID reference="../../fr.echoeslabs.rapid.core.metamodel.Relationship[2]/typeID"/>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>flex.mx</fromEntity>
+      <relationName>includes</relationName>
+      <toEntity>flex.mx.ComboBox</toEntity>
+      <typeID reference="../../fr.echoeslabs.rapid.core.metamodel.Relationship[2]/typeID"/>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>flex.mx</fromEntity>
+      <relationName>includes</relationName>
+      <toEntity>flex.mx.ControlBar</toEntity>
+      <typeID reference="../../fr.echoeslabs.rapid.core.metamodel.Relationship[2]/typeID"/>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>flex.mx</fromEntity>
+      <relationName>includes</relationName>
+      <toEntity>flex.mx.Button</toEntity>
+      <typeID reference="../../fr.echoeslabs.rapid.core.metamodel.Relationship[2]/typeID"/>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>flex.mx</fromEntity>
+      <relationName>includes</relationName>
+      <toEntity>flex.mx.List</toEntity>
+      <typeID reference="../../fr.echoeslabs.rapid.core.metamodel.Relationship[2]/typeID"/>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>flex.mx</fromEntity>
+      <relationName>includes</relationName>
+      <toEntity>flex.mx.Application</toEntity>
+      <typeID reference="../../fr.echoeslabs.rapid.core.metamodel.Relationship[2]/typeID"/>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>flex.mx</fromEntity>
+      <relationName>includes</relationName>
+      <toEntity>flex.mx.ApplicationControlBar</toEntity>
+      <typeID reference="../../fr.echoeslabs.rapid.core.metamodel.Relationship[2]/typeID"/>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>flex.mx</fromEntity>
+      <relationName>includes</relationName>
+      <toEntity>flex.mx.Text</toEntity>
+      <typeID reference="../../fr.echoeslabs.rapid.core.metamodel.Relationship[2]/typeID"/>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>flex.mx</fromEntity>
+      <relationName>includes</relationName>
+      <toEntity>flex.mx.Label</toEntity>
+      <typeID reference="../../fr.echoeslabs.rapid.core.metamodel.Relationship[2]/typeID"/>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>flex.mx</fromEntity>
+      <relationName>includes</relationName>
+      <toEntity>flex.mx.VBox</toEntity>
+      <typeID reference="../../fr.echoeslabs.rapid.core.metamodel.Relationship[2]/typeID"/>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>flex.mx</fromEntity>
+      <relationName>includes</relationName>
+      <toEntity>flex.mx.HBox</toEntity>
+      <typeID reference="../../fr.echoeslabs.rapid.core.metamodel.Relationship[2]/typeID"/>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>flex.mx</fromEntity>
+      <relationName>includes</relationName>
+      <toEntity>flex.mx.Binding</toEntity>
+      <typeID reference="../../fr.echoeslabs.rapid.core.metamodel.Relationship[2]/typeID"/>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>flex.mx</fromEntity>
+      <relationName>includes</relationName>
+      <toEntity>flex.mx.DataGrid</toEntity>
+      <typeID reference="../../fr.echoeslabs.rapid.core.metamodel.Relationship[2]/typeID"/>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>flex.mx</fromEntity>
+      <relationName>includes</relationName>
+      <toEntity>flex.mx.columns</toEntity>
+      <typeID reference="../../fr.echoeslabs.rapid.core.metamodel.Relationship[2]/typeID"/>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>flex.mx</fromEntity>
+      <relationName>includes</relationName>
+      <toEntity>flex.mx.LinkBar</toEntity>
+      <typeID reference="../../fr.echoeslabs.rapid.core.metamodel.Relationship[2]/typeID"/>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>flex.mx</fromEntity>
+      <relationName>includes</relationName>
+      <toEntity>flex.mx.dataProvider</toEntity>
+      <typeID reference="../../fr.echoeslabs.rapid.core.metamodel.Relationship[2]/typeID"/>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>flex.mx</fromEntity>
+      <relationName>includes</relationName>
+      <toEntity>flex.mx.String</toEntity>
+      <typeID reference="../../fr.echoeslabs.rapid.core.metamodel.Relationship[2]/typeID"/>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+  </relationshipList>
+  <type>
+    <key>Package</key>
+  </type>
+  <attributes>
+    <entry>
+      <string>c_name</string>
+      <string>flex.mx</string>
+    </entry>
+    <entry>
+      <string>c_namespace_id</string>
+      <string>flex mx</string>
+    </entry>
+    <entry>
+      <string>c_namespace_camel</string>
+      <string>FlexMx</string>
+    </entry>
+    <entry>
+      <string>c_selector</string>
+      <string>flex-mx</string>
+    </entry>
+    <entry>
+      <string>c_segment</string>
+      <string-array/>
+    </entry>
+  </attributes>
+</fr.echoeslabs.rapid.core.metamodel.Entity>

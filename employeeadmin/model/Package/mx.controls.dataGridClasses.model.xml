@@ -1,0 +1,46 @@
+<fr.echoeslabs.rapid.core.metamodel.Entity>
+  <key>mx.controls.dataGridClasses</key>
+  <relationshipList class="linked-hash-set">
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>mx.controls.dataGridClasses</fromEntity>
+      <relationName>associates</relationName>
+      <toEntity>2006.mxml</toEntity>
+      <typeID>
+        <key>Namespace</key>
+      </typeID>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>mx.controls.dataGridClasses</fromEntity>
+      <relationName>includes</relationName>
+      <toEntity>mx.controls.dataGridClasses.DataGridColumn</toEntity>
+      <typeID>
+        <key>Component</key>
+      </typeID>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+  </relationshipList>
+  <type>
+    <key>Package</key>
+  </type>
+  <attributes>
+    <entry>
+      <string>c_name</string>
+      <string>mx.controls.dataGridClasses</string>
+    </entry>
+    <entry>
+      <string>c_namespace_id</string>
+      <string>mx controls dataGridClasses</string>
+    </entry>
+    <entry>
+      <string>c_namespace_camel</string>
+      <string>MxControlsDatagridclasses</string>
+    </entry>
+    <entry>
+      <string>c_selector</string>
+      <string>mx-controls-datagridclasses</string>
+    </entry>
+    <entry>
+      <string>c_segment</string>
+      <string-array/>
+    </entry>
+  </attributes>
+</fr.echoeslabs.rapid.core.metamodel.Entity>

@@ -1,0 +1,16 @@
+
+<flex-mx-panel title="User Roles" [status]="user.givenName"> 
+ <flex-mx-metadata> 
+ </flex-mx-metadata>
+ <flex-mx-list id="roleList" fxFlex="100" height="100%" labelField="value" [dataProvider]="userRoles" [change]="selectRoleToRemove()"> 
+ </flex-mx-list>
+ <flex-mx-control-bar> 
+  <flex-mx-combo-box id="roleCombo" labelField="value" [enabled]="user != null" [dataProvider]=" RoleEnum.comboList " [change]="selectRoleToAdd()"> 
+  </flex-mx-combo-box>
+  <flex-mx-button label="Add" click="sendEvent( ADD )" [enabled]="roleCombo.selectedItem != RoleEnum.NONE_SELECTED"> 
+  </flex-mx-button>
+  <flex-mx-button label="Remove" click="sendEvent( REMOVE )" [enabled]="roleList.selectedIndex != -1"> 
+  </flex-mx-button>
+ </flex-mx-control-bar>
+</flex-mx-panel>
+

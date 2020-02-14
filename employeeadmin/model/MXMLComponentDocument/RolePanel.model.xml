@@ -1,0 +1,34 @@
+<fr.echoeslabs.rapid.core.metamodel.Entity>
+  <key>RolePanel</key>
+  <relationshipList class="linked-hash-set">
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>RolePanel</fromEntity>
+      <relationName>defines</relationName>
+      <toEntity>org.puremvc.as3.demos.flex.employeeadmin.view.components.RolePanel</toEntity>
+      <typeID>
+        <key>Component</key>
+      </typeID>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+  </relationshipList>
+  <type>
+    <key>MXMLComponentDocument</key>
+  </type>
+  <attributes>
+    <entry>
+      <string>name</string>
+      <string>RolePanel</string>
+    </entry>
+    <entry>
+      <string>path</string>
+      <string>/home/sleroy/git/puremvc-as3-demo-flex-employeeadmin/src/org/puremvc/as3/demos/flex/employeeadmin/view/components/RolePanel.mxml</string>
+    </entry>
+    <entry>
+      <string>c_weight</string>
+      <int>7</int>
+    </entry>
+    <entry>
+      <string>namespace</string>
+      <string>org.puremvc.as3.demos.flex.employeeadmin.view.components</string>
+    </entry>
+  </attributes>
+</fr.echoeslabs.rapid.core.metamodel.Entity>
