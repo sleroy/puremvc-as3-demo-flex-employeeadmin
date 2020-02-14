@@ -54,16 +54,5 @@
         </entry>
       </map>
     </entry>
-    <entry>
-      <string>c_propdefs</string>
-      <list>
-        <com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-          <name>horizontalAlign</name>
-          <type>String</type>
-          <hasCode>false</hasCode>
-          <propertyType>INPUT</propertyType>
-        </com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-      </list>
-    </entry>
   </attributes>
 </fr.echoeslabs.rapid.core.metamodel.Entity>

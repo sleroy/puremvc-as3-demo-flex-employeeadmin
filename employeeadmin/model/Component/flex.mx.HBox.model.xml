@@ -62,29 +62,5 @@
         </entry>
       </map>
     </entry>
-    <entry>
-      <string>c_propdefs</string>
-      <list>
-        <com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-          <name>verticalAlign</name>
-          <type>String</type>
-          <hasCode>false</hasCode>
-          <propertyType>INPUT</propertyType>
-        </com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-        <com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-          <name>visible</name>
-          <type>any</type>
-          <hasCode>true</hasCode>
-          <code>{armed}</code>
-          <propertyType>INPUT</propertyType>
-        </com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-        <com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-          <name>id</name>
-          <type>String</type>
-          <hasCode>false</hasCode>
-          <propertyType>INPUT</propertyType>
-        </com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-      </list>
-    </entry>
   </attributes>
 </fr.echoeslabs.rapid.core.metamodel.Entity>

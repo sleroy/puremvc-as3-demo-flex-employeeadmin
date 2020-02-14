@@ -67,33 +67,6 @@
       </map>
     </entry>
     <entry>
-      <string>has_width</string>
-      <boolean>true</boolean>
-    </entry>
-    <entry>
-      <string>c_propdefs</string>
-      <list>
-        <com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-          <name>dataField</name>
-          <type>String</type>
-          <hasCode>false</hasCode>
-          <propertyType>INPUT</propertyType>
-        </com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-        <com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-          <name>labelFunction</name>
-          <type>String</type>
-          <hasCode>false</hasCode>
-          <propertyType>INPUT</propertyType>
-        </com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-        <com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-          <name>headerText</name>
-          <type>String</type>
-          <hasCode>false</hasCode>
-          <propertyType>INPUT</propertyType>
-        </com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-      </list>
-    </entry>
-    <entry>
       <string>c_reference_by_code</string>
       <boolean>true</boolean>
     </entry>

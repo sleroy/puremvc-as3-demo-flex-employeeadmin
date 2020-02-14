@@ -695,21 +695,6 @@
       <list/>
     </entry>
     <entry>
-      <string>has_width</string>
-      <boolean>true</boolean>
-    </entry>
-    <entry>
-      <string>c_propdefs</string>
-      <list>
-        <com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-          <name>id</name>
-          <type>String</type>
-          <hasCode>false</hasCode>
-          <propertyType>INPUT</propertyType>
-        </com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-      </list>
-    </entry>
-    <entry>
       <string>c_imports</string>
       <list>
         <com.byoskill.rapid.flexangular.angularapp.actionscript.QualifiedName>

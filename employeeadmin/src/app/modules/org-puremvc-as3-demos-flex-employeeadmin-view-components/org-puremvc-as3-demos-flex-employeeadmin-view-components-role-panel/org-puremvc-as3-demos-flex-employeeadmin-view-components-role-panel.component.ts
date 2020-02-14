@@ -10,7 +10,6 @@ export class RolePanel implements OnInit {
 
   constructor() { }
 
-   @Input()  id: String;
 
 
   ngOnInit() {

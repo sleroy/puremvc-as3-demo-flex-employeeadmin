@@ -10,9 +10,6 @@ export class DataGridColumn implements OnInit {
 
   constructor() { }
 
-   @Input()  dataField: String;
-   @Input()  labelFunction: String;
-   @Input()  headerText: String;
 
 
   ngOnInit() {

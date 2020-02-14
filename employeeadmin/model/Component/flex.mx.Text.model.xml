@@ -70,40 +70,5 @@
         </entry>
       </map>
     </entry>
-    <entry>
-      <string>c_propdefs</string>
-      <list>
-        <com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-          <name>fontSize</name>
-          <type>Number</type>
-          <hasCode>false</hasCode>
-          <propertyType>INPUT</propertyType>
-        </com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-        <com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-          <name>fontFamily</name>
-          <type>String</type>
-          <hasCode>false</hasCode>
-          <propertyType>INPUT</propertyType>
-        </com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-        <com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-          <name>text</name>
-          <type>String</type>
-          <hasCode>false</hasCode>
-          <propertyType>INPUT</propertyType>
-        </com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-        <com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-          <name>color</name>
-          <type>String</type>
-          <hasCode>false</hasCode>
-          <propertyType>INPUT</propertyType>
-        </com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-        <com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-          <name>fontStyle</name>
-          <type>String</type>
-          <hasCode>false</hasCode>
-          <propertyType>INPUT</propertyType>
-        </com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-      </list>
-    </entry>
   </attributes>
 </fr.echoeslabs.rapid.core.metamodel.Entity>

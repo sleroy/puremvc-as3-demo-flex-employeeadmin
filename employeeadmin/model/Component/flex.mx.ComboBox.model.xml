@@ -74,50 +74,5 @@
         </entry>
       </map>
     </entry>
-    <entry>
-      <string>c_propdefs</string>
-      <list>
-        <com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-          <name>id</name>
-          <type>String</type>
-          <hasCode>false</hasCode>
-          <propertyType>INPUT</propertyType>
-        </com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-        <com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-          <name>dataProvider</name>
-          <type>any</type>
-          <hasCode>true</hasCode>
-          <code>{ RoleEnum.comboList }</code>
-          <propertyType>INPUT</propertyType>
-        </com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-        <com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-          <name>enabled</name>
-          <type>any</type>
-          <hasCode>true</hasCode>
-          <code>{user != null}</code>
-          <propertyType>INPUT</propertyType>
-        </com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-        <com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-          <name>labelField</name>
-          <type>String</type>
-          <hasCode>false</hasCode>
-          <propertyType>INPUT</propertyType>
-        </com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-        <com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-          <name>selectedIndex</name>
-          <type>any</type>
-          <hasCode>true</hasCode>
-          <code>{user.department.ordinal+1}</code>
-          <propertyType>INPUT</propertyType>
-        </com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-        <com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-          <name>change</name>
-          <type>any</type>
-          <hasCode>true</hasCode>
-          <code>selectRoleToAdd()</code>
-          <propertyType>INPUT</propertyType>
-        </com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-      </list>
-    </entry>
   </attributes>
 </fr.echoeslabs.rapid.core.metamodel.Entity>

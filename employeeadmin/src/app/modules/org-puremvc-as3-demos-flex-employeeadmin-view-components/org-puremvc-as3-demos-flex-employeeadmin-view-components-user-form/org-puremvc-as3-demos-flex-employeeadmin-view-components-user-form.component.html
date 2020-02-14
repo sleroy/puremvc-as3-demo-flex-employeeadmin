@@ -1,41 +1,48 @@
 
-<flex-mx-panel title="User Profile" [status]="user.username"> 
+<flex-mx-panel title="User Profile" status="{user.username}"> 
  <flex-mx-metadata> 
  </flex-mx-metadata>
- <flex-mx-form [enabled]="user != null"> 
-  <flex-mx-form-item label="First Name"> 
-   <flex-mx-text-input label="" id="first" text="fname"> 
+ <flex-mx-form enabled="{user != null}"> 
+  <div class="form-group"> 
+   <label class="col-form-label">First Name</label> 
+   <flex-mx-text-input label="" id="first" text="{user.fname}"> 
    </flex-mx-text-input>
-  </flex-mx-form-item>
-  <flex-mx-form-item label="Last Name"> 
-   <flex-mx-text-input label="" id="last" text="lname"> 
+  </div>
+  <div class="form-group"> 
+   <label class="col-form-label">Last Name</label> 
+   <flex-mx-text-input label="" id="last" text="{user.lname}"> 
    </flex-mx-text-input>
-  </flex-mx-form-item>
-  <flex-mx-form-item label="Email"> 
-   <flex-mx-text-input label="" id="email" text="user.email"> 
+  </div>
+  <div class="form-group"> 
+   <label class="col-form-label">Email</label> 
+   <flex-mx-text-input label="" id="email" text="{user.email}"> 
    </flex-mx-text-input>
-  </flex-mx-form-item>
-  <flex-mx-form-item label="Username" required="true"> 
-   <flex-mx-text-input label="" id="username" [enabled]="mode == MODE_ADD" text="user.username"> 
+  </div>
+  <div class="form-group"> 
+   <label class="col-form-label">Username</label> 
+   <flex-mx-text-input label="" id="username" enabled="{mode == MODE_ADD}" text="{user.username}"> 
    </flex-mx-text-input>
-  </flex-mx-form-item>
-  <flex-mx-form-item label="Password" required="true"> 
-   <flex-mx-text-input label="" id="password" text="password" displayAsPassword="true"> 
+  </div>
+  <div class="form-group"> 
+   <label class="col-form-label">Password</label> 
+   <flex-mx-text-input label="" id="password" text="{user.password}" displayAsPassword="true"> 
    </flex-mx-text-input>
-  </flex-mx-form-item>
-  <flex-mx-form-item label="Confirm Password" required="true"> 
-   <flex-mx-text-input label="" id="confirm" text="password" displayAsPassword="true"> 
-   </flex-mx-text-input> 
-  </flex-mx-form-item>
-  <flex-mx-form-item label="Department" required="true"> 
-   <flex-mx-combo-box id="department" labelField="value" selectedIndex="user.department.ordinal+1" [dataProvider]=" DeptEnum.comboList " [enabled]="user != null"> 
+  </div>
+  <div class="form-group"> 
+   <label class="col-form-label">Confirm Password</label> 
+   <flex-mx-text-input label="" id="confirm" text="{user.password}" displayAsPassword="true"> 
+   </flex-mx-text-input>
+  </div>
+  <div class="form-group"> 
+   <label class="col-form-label">Department</label> 
+   <flex-mx-combo-box id="department" labelField="value" selectedIndex="{user.department.ordinal+1}" dataProvider="{ DeptEnum.comboList }" enabled="{user != null}"> 
    </flex-mx-combo-box>
-  </flex-mx-form-item>
+  </div>
  </flex-mx-form>
  <flex-mx-control-bar horizontalAlign="right"> 
-  <flex-mx-button id="submitButton" click="submit()" label="Add user"> 
+  <flex-mx-button id="submitButton" click="submit()" label="{ ( mode == MODE_ADD )?'Add User':'Update Profile' }" enabled="{ enableSubmit( username.text, confirm.text, password.text, department.selectedItem  ) }"> 
   </flex-mx-button>
-  <flex-mx-button label="Cancel" click="cancel()" enabled="user != null"> 
+  <flex-mx-button label="Cancel" click="cancel()" enabled="{user != null}"> 
   </flex-mx-button>
  </flex-mx-control-bar>
 </flex-mx-panel>

@@ -1,9 +1,10 @@
-<flex-mx-panel title="Users" [status]="users.length"> 
+
+<flex-mx-panel title="Users" status="{users.length}"> 
  <flex-mx-metadata> 
  </flex-mx-metadata>
  <flex-mx-binding source="userDataGrid.selectedItem as UserVO" destination="selectedUser"> 
  </flex-mx-binding>
- <flex-mx-data-grid id="userDataGrid" [dataProvider]=" users " fxFlex="100" click="if (userDataGrid.selectedIndex != -1) sendEvent( SELECT )"> 
+ <flex-mx-data-grid id="userDataGrid" dataProvider="{ users }" fxFlex="100" click="if (userDataGrid.selectedIndex != -1) sendEvent( SELECT )"> 
   <flex-mx-columns> 
    <mx-controls-datagridclasses-data-grid-column fxFlex="75" dataField="username" headerText="Username"> 
    </mx-controls-datagridclasses-data-grid-column>
@@ -18,7 +19,7 @@
   </flex-mx-columns>
  </flex-mx-data-grid>
  <flex-mx-control-bar horizontalAlign="right"> 
-  <flex-mx-hbox id="deleteArmed" [visible]="armed" verticalAlign="middle"> 
+  <flex-mx-hbox id="deleteArmed" visible="{armed}" verticalAlign="middle"> 
    <flex-mx-label text="Are you sure?"> 
    </flex-mx-label>
    <flex-mx-link-bar itemClick="(event.item == 'Yes')?sendEvent( DELETE ):armed=false"> 
@@ -30,9 +31,9 @@
     </flex-mx-data-provider>
    </flex-mx-link-bar>
   </flex-mx-hbox>
-  <flex-mx-button label="Delete" click="armed=true" enabled=" userDataGrid.selectedIndex != -1 "> 
+  <flex-mx-button label="Delete" click="armed=true" enabled="{ userDataGrid.selectedIndex != -1 }"> 
   </flex-mx-button>
-  <flex-mx-button label="New" [click]=""> 
+  <flex-mx-button label="New" click="deSelect();sendEvent( NEW )"> 
   </flex-mx-button>
  </flex-mx-control-bar>
 </flex-mx-panel>

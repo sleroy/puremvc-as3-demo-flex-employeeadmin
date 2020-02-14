@@ -49,9 +49,5 @@
       <string>c_attributes</string>
       <map/>
     </entry>
-    <entry>
-      <string>c_propdefs</string>
-      <list/>
-    </entry>
   </attributes>
 </fr.echoeslabs.rapid.core.metamodel.Entity>

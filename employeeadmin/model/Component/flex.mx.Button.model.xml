@@ -66,36 +66,5 @@
         </entry>
       </map>
     </entry>
-    <entry>
-      <string>c_propdefs</string>
-      <list>
-        <com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-          <name>id</name>
-          <type>String</type>
-          <hasCode>false</hasCode>
-          <propertyType>INPUT</propertyType>
-        </com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-        <com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-          <name>label</name>
-          <type>String</type>
-          <hasCode>false</hasCode>
-          <propertyType>INPUT</propertyType>
-        </com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-        <com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-          <name>click</name>
-          <type>any</type>
-          <hasCode>true</hasCode>
-          <code>deSelect();sendEvent( NEW )</code>
-          <propertyType>INPUT</propertyType>
-        </com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-        <com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-          <name>enabled</name>
-          <type>any</type>
-          <hasCode>true</hasCode>
-          <code>{ userDataGrid.selectedIndex != -1 }</code>
-          <propertyType>INPUT</propertyType>
-        </com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
-      </list>
-    </entry>
   </attributes>
 </fr.echoeslabs.rapid.core.metamodel.Entity>
