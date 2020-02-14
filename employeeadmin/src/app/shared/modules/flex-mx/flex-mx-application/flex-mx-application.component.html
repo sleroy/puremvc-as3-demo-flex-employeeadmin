@@ -1,5 +1,9 @@
 <div class="container">
-    <ng-content></ng-content>
+    <div *ngIf="horizontalAlign =='center'" class="d-flex flex-row justify-content-center">
+        <div *ngIf="verticalAlign =='middle'" class="d-flex flex-column justify-content-center">
+            <ng-content></ng-content>
+        </div>
+    </div>
 </div>
 
 
