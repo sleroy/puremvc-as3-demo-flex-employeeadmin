@@ -1,5 +1,4 @@
-
-<flex-mx-application layout="horizontal" horizontalAlign="center" verticalAlign="middle" pageTitle="PureMVC Flex Demo: EmployeeAdmin" backgroundGradientColors="[#325EC0,#FFFFFF]" backgroundColor="#FFFFFF" themeColor="HaloBlue" creationComplete="facade.startup(this)" viewSourceURL="srcview/index.html"> 
+<flex-mx-application layout="horizontal" horizontalAlign="center" verticalAlign="middle" pageTitle="PureMVC Flex Demo: EmployeeAdmin" backgroundGradientColors="[#325EC0,#FFFFFF]" backgroundColor="#FFFFFF" themeColor="HaloBlue" creationComplete="facade.startup(this)" viewSourceURL="srcview/index.html" > 
  <flex-mx-application-control-bar verticalAlign="middle" backgroundColor="#FFFFFF" dock="true"> 
   <flex-mx-text text="Employee Admin" fontFamily="Verdana" fontSize="22" fontStyle="normal" color="#0559CC"> 
   </flex-mx-text>
@@ -7,12 +6,12 @@
   </flex-mx-label>
  </flex-mx-application-control-bar>
  <flex-mx-vbox> 
-  <org-puremvc-as3-demos-flex-employeeadmin-view-components-user-list id="userList" fxFlex="100"> 
+  <org-puremvc-as3-demos-flex-employeeadmin-view-components-user-list id="userList"> 
   </org-puremvc-as3-demos-flex-employeeadmin-view-components-user-list>
-  <flex-mx-hbox> 
-   <org-puremvc-as3-demos-flex-employeeadmin-view-components-user-form id="userForm"> 
+  <flex-mx-hbox > 
+   <org-puremvc-as3-demos-flex-employeeadmin-view-components-user-form id="userForm" class="d-flex align-items-stretch"> 
    </org-puremvc-as3-demos-flex-employeeadmin-view-components-user-form>
-   <org-puremvc-as3-demos-flex-employeeadmin-view-components-role-panel id="rolePanel" height="100%"> 
+   <org-puremvc-as3-demos-flex-employeeadmin-view-components-role-panel id="rolePanel" class="d-flex align-items-stretch"> 
    </org-puremvc-as3-demos-flex-employeeadmin-view-components-role-panel>
   </flex-mx-hbox>
  </flex-mx-vbox>
