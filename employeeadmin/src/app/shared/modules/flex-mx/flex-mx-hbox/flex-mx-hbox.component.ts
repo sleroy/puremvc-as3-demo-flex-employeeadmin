@@ -10,6 +10,9 @@ export class HBox implements OnInit {
 
   constructor() { }
 
+   @Input()  verticalAlign: String;
+   @Input()  visible: any;
+   @Input()  id: String;
 
 
   ngOnInit() {

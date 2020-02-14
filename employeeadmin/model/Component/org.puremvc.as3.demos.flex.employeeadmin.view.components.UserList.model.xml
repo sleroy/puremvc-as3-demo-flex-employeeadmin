@@ -1,0 +1,746 @@
+<fr.echoeslabs.rapid.core.metamodel.Entity>
+  <key>org.puremvc.as3.demos.flex.employeeadmin.view.components.UserList</key>
+  <relationshipList class="linked-hash-set">
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>org.puremvc.as3.demos.flex.employeeadmin.view.components.UserList</fromEntity>
+      <relationName>uses</relationName>
+      <toEntity>flex.mx.Panel</toEntity>
+      <typeID>
+        <key>Component</key>
+      </typeID>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>org.puremvc.as3.demos.flex.employeeadmin.view.components.UserList</fromEntity>
+      <relationName>uses</relationName>
+      <toEntity>flex.mx.Metadata</toEntity>
+      <typeID reference="../../fr.echoeslabs.rapid.core.metamodel.Relationship/typeID"/>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>org.puremvc.as3.demos.flex.employeeadmin.view.components.UserList</fromEntity>
+      <relationName>uses</relationName>
+      <toEntity>flex.mx.Script</toEntity>
+      <typeID reference="../../fr.echoeslabs.rapid.core.metamodel.Relationship/typeID"/>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>org.puremvc.as3.demos.flex.employeeadmin.view.components.UserList</fromEntity>
+      <relationName>uses</relationName>
+      <toEntity>flex.mx.Binding</toEntity>
+      <typeID reference="../../fr.echoeslabs.rapid.core.metamodel.Relationship/typeID"/>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>org.puremvc.as3.demos.flex.employeeadmin.view.components.UserList</fromEntity>
+      <relationName>uses</relationName>
+      <toEntity>flex.mx.DataGrid</toEntity>
+      <typeID reference="../../fr.echoeslabs.rapid.core.metamodel.Relationship/typeID"/>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>org.puremvc.as3.demos.flex.employeeadmin.view.components.UserList</fromEntity>
+      <relationName>uses</relationName>
+      <toEntity>flex.mx.columns</toEntity>
+      <typeID reference="../../fr.echoeslabs.rapid.core.metamodel.Relationship/typeID"/>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>org.puremvc.as3.demos.flex.employeeadmin.view.components.UserList</fromEntity>
+      <relationName>uses</relationName>
+      <toEntity>mx.controls.dataGridClasses.DataGridColumn</toEntity>
+      <typeID reference="../../fr.echoeslabs.rapid.core.metamodel.Relationship/typeID"/>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>org.puremvc.as3.demos.flex.employeeadmin.view.components.UserList</fromEntity>
+      <relationName>uses</relationName>
+      <toEntity>flex.mx.ControlBar</toEntity>
+      <typeID reference="../../fr.echoeslabs.rapid.core.metamodel.Relationship/typeID"/>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>org.puremvc.as3.demos.flex.employeeadmin.view.components.UserList</fromEntity>
+      <relationName>uses</relationName>
+      <toEntity>flex.mx.HBox</toEntity>
+      <typeID reference="../../fr.echoeslabs.rapid.core.metamodel.Relationship/typeID"/>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>org.puremvc.as3.demos.flex.employeeadmin.view.components.UserList</fromEntity>
+      <relationName>uses</relationName>
+      <toEntity>flex.mx.Label</toEntity>
+      <typeID reference="../../fr.echoeslabs.rapid.core.metamodel.Relationship/typeID"/>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>org.puremvc.as3.demos.flex.employeeadmin.view.components.UserList</fromEntity>
+      <relationName>uses</relationName>
+      <toEntity>flex.mx.LinkBar</toEntity>
+      <typeID reference="../../fr.echoeslabs.rapid.core.metamodel.Relationship/typeID"/>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>org.puremvc.as3.demos.flex.employeeadmin.view.components.UserList</fromEntity>
+      <relationName>uses</relationName>
+      <toEntity>flex.mx.dataProvider</toEntity>
+      <typeID reference="../../fr.echoeslabs.rapid.core.metamodel.Relationship/typeID"/>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>org.puremvc.as3.demos.flex.employeeadmin.view.components.UserList</fromEntity>
+      <relationName>uses</relationName>
+      <toEntity>flex.mx.String</toEntity>
+      <typeID reference="../../fr.echoeslabs.rapid.core.metamodel.Relationship/typeID"/>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>org.puremvc.as3.demos.flex.employeeadmin.view.components.UserList</fromEntity>
+      <relationName>uses</relationName>
+      <toEntity>flex.mx.Button</toEntity>
+      <typeID reference="../../fr.echoeslabs.rapid.core.metamodel.Relationship/typeID"/>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+  </relationshipList>
+  <type reference="../relationshipList/fr.echoeslabs.rapid.core.metamodel.Relationship/typeID"/>
+  <attributes>
+    <entry>
+      <string>c_name</string>
+      <string>UserList</string>
+    </entry>
+    <entry>
+      <string>c_namespace</string>
+      <string>org.puremvc.as3.demos.flex.employeeadmin.view.components</string>
+    </entry>
+    <entry>
+      <string>hasDataBinding</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>hasEvent</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>hasCss</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>c_script</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>c_namespace_camel</string>
+      <string>OrgPuremvcAs3DemosFlexEmployeeadminViewComponents</string>
+    </entry>
+    <entry>
+      <string>c_namespace_id</string>
+      <string>org puremvc as3 demos flex employeeadmin view components</string>
+    </entry>
+    <entry>
+      <string>c_selector</string>
+      <string>org-puremvc-as3-demos-flex-employeeadmin-view-components-user-list</string>
+    </entry>
+    <entry>
+      <string>c_type</string>
+      <string>UI</string>
+    </entry>
+    <entry>
+      <string>c_attributes</string>
+      <map>
+        <entry>
+          <string>width</string>
+          <string>100%</string>
+        </entry>
+        <entry>
+          <string>id</string>
+          <string>userList</string>
+        </entry>
+      </map>
+    </entry>
+    <entry>
+      <string>path</string>
+      <path>/home/sleroy/git/puremvc-as3-demo-flex-employeeadmin/src/org/puremvc/as3/demos/flex/employeeadmin/view/components/UserList.mxml</path>
+    </entry>
+    <entry>
+      <string>custom</string>
+      <boolean>true</boolean>
+    </entry>
+    <entry>
+      <string>tree</string>
+      <fr.echoeslabs.rapid.core.genericmodel.GenericModelImpl>
+        <resource class="fr.echoeslabs.rapid.core.workspace.SourceFile">
+          <adapter>
+            <adapters/>
+          </adapter>
+          <decorations>
+            <decorations/>
+          </decorations>
+          <file>UserList</file>
+        </resource>
+        <topInstructions class="singleton-list">
+          <fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+            <name>root</name>
+            <dialect>UI</dialect>
+            <instructions>
+              <fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                <name>Panel</name>
+                <dialect>UI</dialect>
+                <instructions>
+                  <fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                    <name>Metadata</name>
+                    <dialect>UI</dialect>
+                    <instructions/>
+                    <attributes>
+                      <entry>
+                        <string>xmlAttrs</string>
+                        <linked-hash-map/>
+                      </entry>
+                      <entry>
+                        <string>qualifiedName</string>
+                        <string>flex.mx.Metadata</string>
+                      </entry>
+                    </attributes>
+                    <parent class="fr.echoeslabs.rapid.core.genericmodel.CoreInstruction" reference="../../.."/>
+                  </fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                  <fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                    <name>Script</name>
+                    <dialect>UI</dialect>
+                    <instructions/>
+                    <attributes>
+                      <entry>
+                        <string>xmlAttrs</string>
+                        <linked-hash-map/>
+                      </entry>
+                      <entry>
+                        <string>qualifiedName</string>
+                        <string>flex.mx.Script</string>
+                      </entry>
+                    </attributes>
+                    <parent class="fr.echoeslabs.rapid.core.genericmodel.CoreInstruction" reference="../../.."/>
+                  </fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                  <fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                    <name>Binding</name>
+                    <dialect>UI</dialect>
+                    <instructions/>
+                    <attributes>
+                      <entry>
+                        <string>xmlAttrs</string>
+                        <linked-hash-map>
+                          <entry>
+                            <string>source</string>
+                            <string>userDataGrid.selectedItem as UserVO</string>
+                          </entry>
+                          <entry>
+                            <string>destination</string>
+                            <string>selectedUser</string>
+                          </entry>
+                        </linked-hash-map>
+                      </entry>
+                      <entry>
+                        <string>qualifiedName</string>
+                        <string>flex.mx.Binding</string>
+                      </entry>
+                    </attributes>
+                    <parent class="fr.echoeslabs.rapid.core.genericmodel.CoreInstruction" reference="../../.."/>
+                  </fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                  <fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                    <name>DataGrid</name>
+                    <dialect>UI</dialect>
+                    <instructions>
+                      <fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                        <name>columns</name>
+                        <dialect>UI</dialect>
+                        <instructions>
+                          <fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                            <name>DataGridColumn</name>
+                            <dialect>UI</dialect>
+                            <instructions/>
+                            <attributes>
+                              <entry>
+                                <string>xmlAttrs</string>
+                                <linked-hash-map>
+                                  <entry>
+                                    <string>width</string>
+                                    <string>75</string>
+                                  </entry>
+                                  <entry>
+                                    <string>dataField</string>
+                                    <string>username</string>
+                                  </entry>
+                                  <entry>
+                                    <string>headerText</string>
+                                    <string>Username</string>
+                                  </entry>
+                                </linked-hash-map>
+                              </entry>
+                              <entry>
+                                <string>qualifiedName</string>
+                                <string>mx.controls.dataGridClasses.DataGridColumn</string>
+                              </entry>
+                            </attributes>
+                            <parent class="fr.echoeslabs.rapid.core.genericmodel.CoreInstruction" reference="../../.."/>
+                          </fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                          <fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                            <name>DataGridColumn</name>
+                            <dialect>UI</dialect>
+                            <instructions/>
+                            <attributes>
+                              <entry>
+                                <string>xmlAttrs</string>
+                                <linked-hash-map>
+                                  <entry>
+                                    <string>width</string>
+                                    <string>75</string>
+                                  </entry>
+                                  <entry>
+                                    <string>dataField</string>
+                                    <string>fname</string>
+                                  </entry>
+                                  <entry>
+                                    <string>headerText</string>
+                                    <string>First Name</string>
+                                  </entry>
+                                </linked-hash-map>
+                              </entry>
+                              <entry>
+                                <string>qualifiedName</string>
+                                <string>mx.controls.dataGridClasses.DataGridColumn</string>
+                              </entry>
+                            </attributes>
+                            <parent class="fr.echoeslabs.rapid.core.genericmodel.CoreInstruction" reference="../../.."/>
+                          </fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                          <fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                            <name>DataGridColumn</name>
+                            <dialect>UI</dialect>
+                            <instructions/>
+                            <attributes>
+                              <entry>
+                                <string>xmlAttrs</string>
+                                <linked-hash-map>
+                                  <entry>
+                                    <string>width</string>
+                                    <string>75</string>
+                                  </entry>
+                                  <entry>
+                                    <string>dataField</string>
+                                    <string>lname</string>
+                                  </entry>
+                                  <entry>
+                                    <string>headerText</string>
+                                    <string>Last Name</string>
+                                  </entry>
+                                </linked-hash-map>
+                              </entry>
+                              <entry>
+                                <string>qualifiedName</string>
+                                <string>mx.controls.dataGridClasses.DataGridColumn</string>
+                              </entry>
+                            </attributes>
+                            <parent class="fr.echoeslabs.rapid.core.genericmodel.CoreInstruction" reference="../../.."/>
+                          </fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                          <fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                            <name>DataGridColumn</name>
+                            <dialect>UI</dialect>
+                            <instructions/>
+                            <attributes>
+                              <entry>
+                                <string>xmlAttrs</string>
+                                <linked-hash-map>
+                                  <entry>
+                                    <string>dataField</string>
+                                    <string>email</string>
+                                  </entry>
+                                  <entry>
+                                    <string>headerText</string>
+                                    <string>Email</string>
+                                  </entry>
+                                </linked-hash-map>
+                              </entry>
+                              <entry>
+                                <string>qualifiedName</string>
+                                <string>mx.controls.dataGridClasses.DataGridColumn</string>
+                              </entry>
+                            </attributes>
+                            <parent class="fr.echoeslabs.rapid.core.genericmodel.CoreInstruction" reference="../../.."/>
+                          </fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                          <fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                            <name>DataGridColumn</name>
+                            <dialect>UI</dialect>
+                            <instructions/>
+                            <attributes>
+                              <entry>
+                                <string>xmlAttrs</string>
+                                <linked-hash-map>
+                                  <entry>
+                                    <string>dataField</string>
+                                    <string>department</string>
+                                  </entry>
+                                  <entry>
+                                    <string>labelFunction</string>
+                                    <string>deptLabel</string>
+                                  </entry>
+                                  <entry>
+                                    <string>headerText</string>
+                                    <string>Department</string>
+                                  </entry>
+                                </linked-hash-map>
+                              </entry>
+                              <entry>
+                                <string>qualifiedName</string>
+                                <string>mx.controls.dataGridClasses.DataGridColumn</string>
+                              </entry>
+                            </attributes>
+                            <parent class="fr.echoeslabs.rapid.core.genericmodel.CoreInstruction" reference="../../.."/>
+                          </fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                        </instructions>
+                        <attributes>
+                          <entry>
+                            <string>xmlAttrs</string>
+                            <linked-hash-map/>
+                          </entry>
+                          <entry>
+                            <string>qualifiedName</string>
+                            <string>flex.mx.columns</string>
+                          </entry>
+                        </attributes>
+                        <parent class="fr.echoeslabs.rapid.core.genericmodel.CoreInstruction" reference="../../.."/>
+                      </fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                    </instructions>
+                    <attributes>
+                      <entry>
+                        <string>xmlAttrs</string>
+                        <linked-hash-map>
+                          <entry>
+                            <string>id</string>
+                            <string>userDataGrid</string>
+                          </entry>
+                          <entry>
+                            <string>dataProvider</string>
+                            <string>{ users }</string>
+                          </entry>
+                          <entry>
+                            <string>width</string>
+                            <string>100%</string>
+                          </entry>
+                          <entry>
+                            <string>click</string>
+                            <string>if (userDataGrid.selectedIndex != -1) sendEvent( SELECT )</string>
+                          </entry>
+                        </linked-hash-map>
+                      </entry>
+                      <entry>
+                        <string>qualifiedName</string>
+                        <string>flex.mx.DataGrid</string>
+                      </entry>
+                    </attributes>
+                    <parent class="fr.echoeslabs.rapid.core.genericmodel.CoreInstruction" reference="../../.."/>
+                  </fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                  <fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                    <name>ControlBar</name>
+                    <dialect>UI</dialect>
+                    <instructions>
+                      <fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                        <name>HBox</name>
+                        <dialect>UI</dialect>
+                        <instructions>
+                          <fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                            <name>Label</name>
+                            <dialect>UI</dialect>
+                            <instructions/>
+                            <attributes>
+                              <entry>
+                                <string>xmlAttrs</string>
+                                <linked-hash-map>
+                                  <entry>
+                                    <string>text</string>
+                                    <string>Are you sure?</string>
+                                  </entry>
+                                </linked-hash-map>
+                              </entry>
+                              <entry>
+                                <string>qualifiedName</string>
+                                <string>flex.mx.Label</string>
+                              </entry>
+                            </attributes>
+                            <parent class="fr.echoeslabs.rapid.core.genericmodel.CoreInstruction" reference="../../.."/>
+                          </fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                          <fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                            <name>LinkBar</name>
+                            <dialect>UI</dialect>
+                            <instructions>
+                              <fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                                <name>dataProvider</name>
+                                <dialect>UI</dialect>
+                                <instructions>
+                                  <fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                                    <name>String</name>
+                                    <dialect>UI</dialect>
+                                    <instructions/>
+                                    <attributes>
+                                      <entry>
+                                        <string>xmlAttrs</string>
+                                        <linked-hash-map/>
+                                      </entry>
+                                      <entry>
+                                        <string>qualifiedName</string>
+                                        <string>flex.mx.String</string>
+                                      </entry>
+                                    </attributes>
+                                    <parent class="fr.echoeslabs.rapid.core.genericmodel.CoreInstruction" reference="../../.."/>
+                                  </fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                                  <fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                                    <name>String</name>
+                                    <dialect>UI</dialect>
+                                    <instructions/>
+                                    <attributes>
+                                      <entry>
+                                        <string>xmlAttrs</string>
+                                        <linked-hash-map/>
+                                      </entry>
+                                      <entry>
+                                        <string>qualifiedName</string>
+                                        <string>flex.mx.String</string>
+                                      </entry>
+                                    </attributes>
+                                    <parent class="fr.echoeslabs.rapid.core.genericmodel.CoreInstruction" reference="../../.."/>
+                                  </fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                                </instructions>
+                                <attributes>
+                                  <entry>
+                                    <string>xmlAttrs</string>
+                                    <linked-hash-map/>
+                                  </entry>
+                                  <entry>
+                                    <string>qualifiedName</string>
+                                    <string>flex.mx.dataProvider</string>
+                                  </entry>
+                                </attributes>
+                                <parent class="fr.echoeslabs.rapid.core.genericmodel.CoreInstruction" reference="../../.."/>
+                              </fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                            </instructions>
+                            <attributes>
+                              <entry>
+                                <string>xmlAttrs</string>
+                                <linked-hash-map>
+                                  <entry>
+                                    <string>itemClick</string>
+                                    <string>(event.item == &apos;Yes&apos;)?sendEvent( DELETE ):armed=false</string>
+                                  </entry>
+                                </linked-hash-map>
+                              </entry>
+                              <entry>
+                                <string>qualifiedName</string>
+                                <string>flex.mx.LinkBar</string>
+                              </entry>
+                            </attributes>
+                            <parent class="fr.echoeslabs.rapid.core.genericmodel.CoreInstruction" reference="../../.."/>
+                          </fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                        </instructions>
+                        <attributes>
+                          <entry>
+                            <string>xmlAttrs</string>
+                            <linked-hash-map>
+                              <entry>
+                                <string>id</string>
+                                <string>deleteArmed</string>
+                              </entry>
+                              <entry>
+                                <string>visible</string>
+                                <string>{armed}</string>
+                              </entry>
+                              <entry>
+                                <string>verticalAlign</string>
+                                <string>middle</string>
+                              </entry>
+                            </linked-hash-map>
+                          </entry>
+                          <entry>
+                            <string>qualifiedName</string>
+                            <string>flex.mx.HBox</string>
+                          </entry>
+                        </attributes>
+                        <parent class="fr.echoeslabs.rapid.core.genericmodel.CoreInstruction" reference="../../.."/>
+                      </fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                      <fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                        <name>Button</name>
+                        <dialect>UI</dialect>
+                        <instructions/>
+                        <attributes>
+                          <entry>
+                            <string>xmlAttrs</string>
+                            <linked-hash-map>
+                              <entry>
+                                <string>label</string>
+                                <string>Delete</string>
+                              </entry>
+                              <entry>
+                                <string>click</string>
+                                <string>armed=true</string>
+                              </entry>
+                              <entry>
+                                <string>enabled</string>
+                                <string>{ userDataGrid.selectedIndex != -1 }</string>
+                              </entry>
+                            </linked-hash-map>
+                          </entry>
+                          <entry>
+                            <string>qualifiedName</string>
+                            <string>flex.mx.Button</string>
+                          </entry>
+                        </attributes>
+                        <parent class="fr.echoeslabs.rapid.core.genericmodel.CoreInstruction" reference="../../.."/>
+                      </fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                      <fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                        <name>Button</name>
+                        <dialect>UI</dialect>
+                        <instructions/>
+                        <attributes>
+                          <entry>
+                            <string>xmlAttrs</string>
+                            <linked-hash-map>
+                              <entry>
+                                <string>label</string>
+                                <string>New</string>
+                              </entry>
+                              <entry>
+                                <string>click</string>
+                                <string>deSelect();sendEvent( NEW )</string>
+                              </entry>
+                            </linked-hash-map>
+                          </entry>
+                          <entry>
+                            <string>qualifiedName</string>
+                            <string>flex.mx.Button</string>
+                          </entry>
+                        </attributes>
+                        <parent class="fr.echoeslabs.rapid.core.genericmodel.CoreInstruction" reference="../../.."/>
+                      </fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                    </instructions>
+                    <attributes>
+                      <entry>
+                        <string>xmlAttrs</string>
+                        <linked-hash-map>
+                          <entry>
+                            <string>horizontalAlign</string>
+                            <string>right</string>
+                          </entry>
+                        </linked-hash-map>
+                      </entry>
+                      <entry>
+                        <string>qualifiedName</string>
+                        <string>flex.mx.ControlBar</string>
+                      </entry>
+                    </attributes>
+                    <parent class="fr.echoeslabs.rapid.core.genericmodel.CoreInstruction" reference="../../.."/>
+                  </fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                </instructions>
+                <attributes>
+                  <entry>
+                    <string>xmlAttrs</string>
+                    <linked-hash-map>
+                      <entry>
+                        <string>title</string>
+                        <string>Users</string>
+                      </entry>
+                      <entry>
+                        <string>status</string>
+                        <string>{users.length}</string>
+                      </entry>
+                    </linked-hash-map>
+                  </entry>
+                  <entry>
+                    <string>qualifiedName</string>
+                    <string>flex.mx.Panel</string>
+                  </entry>
+                </attributes>
+                <parent class="fr.echoeslabs.rapid.core.genericmodel.CoreInstruction" reference="../../.."/>
+              </fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+            </instructions>
+            <attributes class="linked-hash-map"/>
+          </fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+        </topInstructions>
+      </fr.echoeslabs.rapid.core.genericmodel.GenericModelImpl>
+    </entry>
+    <entry>
+      <string>c_weight</string>
+      <int>19</int>
+    </entry>
+    <entry>
+      <string>c_codes</string>
+      <list>
+        <string>
+			import mx.collections.ArrayCollection;
+			import mx.controls.dataGridClasses.DataGridColumn;
+			import org.puremvc.as3.demos.flex.employeeadmin.model.vo.UserVO;
+			
+			public static const NEW:String 		= &quot;new&quot;;
+			public static const DELETE:String 	= &quot;delete&quot;;
+			public static const SELECT:String 	= &quot;select&quot;;
+			
+			[Bindable] public var selectedUser:UserVO;
+			[Bindable] public var users:ArrayCollection;
+			[Bindable] private var armed:Boolean = false; // delete confirmation
+			
+			// send the named event and reset armed state 
+			private function sendEvent( eventName:String ):void
+			{
+				armed=false;
+				dispatchEvent( new Event( eventName, true ) );
+			}
+			
+			// remove selection in the user list and reset armed state
+			public function deSelect():void
+			{
+				armed=false;
+				userDataGrid.selectedIndex = -1;
+			}
+			
+			// display department in datagrid
+			private function deptLabel ( item:Object, dc:DataGridColumn ):String
+			{
+				return item.department.value;
+			}
+			
+		</string>
+      </list>
+    </entry>
+    <entry>
+      <string>c_declarations</string>
+      <list/>
+    </entry>
+    <entry>
+      <string>has_width</string>
+      <boolean>true</boolean>
+    </entry>
+    <entry>
+      <string>c_propdefs</string>
+      <list>
+        <com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
+          <name>id</name>
+          <type>String</type>
+          <hasCode>false</hasCode>
+          <propertyType>INPUT</propertyType>
+        </com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
+      </list>
+    </entry>
+    <entry>
+      <string>c_imports</string>
+      <list>
+        <com.byoskill.rapid.flexangular.angularapp.actionscript.QualifiedName>
+          <fragments>
+            <string>mx</string>
+            <string>collections</string>
+            <string>ArrayCollection</string>
+          </fragments>
+        </com.byoskill.rapid.flexangular.angularapp.actionscript.QualifiedName>
+        <com.byoskill.rapid.flexangular.angularapp.actionscript.QualifiedName>
+          <fragments>
+            <string>mx</string>
+            <string>controls</string>
+            <string>dataGridClasses</string>
+            <string>DataGridColumn</string>
+          </fragments>
+        </com.byoskill.rapid.flexangular.angularapp.actionscript.QualifiedName>
+        <com.byoskill.rapid.flexangular.angularapp.actionscript.QualifiedName>
+          <fragments>
+            <string>org</string>
+            <string>puremvc</string>
+            <string>as3</string>
+            <string>demos</string>
+            <string>flex</string>
+            <string>employeeadmin</string>
+            <string>model</string>
+            <string>vo</string>
+            <string>UserVO</string>
+          </fragments>
+        </com.byoskill.rapid.flexangular.angularapp.actionscript.QualifiedName>
+      </list>
+    </entry>
+  </attributes>
+</fr.echoeslabs.rapid.core.metamodel.Entity>

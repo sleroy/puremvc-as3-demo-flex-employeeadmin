@@ -1,0 +1,49 @@
+<fr.echoeslabs.rapid.core.metamodel.Entity>
+  <key>org.puremvc.as3.demos.flex.employeeadmin.model.vo.UserVO</key>
+  <relationshipList class="linked-hash-set"/>
+  <type>
+    <key>Component</key>
+  </type>
+  <attributes>
+    <entry>
+      <string>c_name</string>
+      <string>UserVO</string>
+    </entry>
+    <entry>
+      <string>c_namespace</string>
+      <string>org.puremvc.as3.demos.flex.employeeadmin.model.vo</string>
+    </entry>
+    <entry>
+      <string>hasDataBinding</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>hasEvent</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>hasCss</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>c_script</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>c_namespace_camel</string>
+      <string>OrgPuremvcAs3DemosFlexEmployeeadminModelVo</string>
+    </entry>
+    <entry>
+      <string>c_namespace_id</string>
+      <string>org puremvc as3 demos flex employeeadmin model vo</string>
+    </entry>
+    <entry>
+      <string>c_selector</string>
+      <string>org-puremvc-as3-demos-flex-employeeadmin-model-vo-user-vo</string>
+    </entry>
+    <entry>
+      <string>c_type</string>
+      <string>Code</string>
+    </entry>
+  </attributes>
+</fr.echoeslabs.rapid.core.metamodel.Entity>

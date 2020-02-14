@@ -1,0 +1,49 @@
+<fr.echoeslabs.rapid.core.metamodel.Entity>
+  <key>mx.collections.ArrayCollection</key>
+  <relationshipList class="linked-hash-set"/>
+  <type>
+    <key>Component</key>
+  </type>
+  <attributes>
+    <entry>
+      <string>c_name</string>
+      <string>ArrayCollection</string>
+    </entry>
+    <entry>
+      <string>c_namespace</string>
+      <string>mx.collections</string>
+    </entry>
+    <entry>
+      <string>hasDataBinding</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>hasEvent</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>hasCss</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>c_script</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>c_namespace_camel</string>
+      <string>MxCollections</string>
+    </entry>
+    <entry>
+      <string>c_namespace_id</string>
+      <string>mx collections</string>
+    </entry>
+    <entry>
+      <string>c_selector</string>
+      <string>mx-collections-array-collection</string>
+    </entry>
+    <entry>
+      <string>c_type</string>
+      <string>Code</string>
+    </entry>
+  </attributes>
+</fr.echoeslabs.rapid.core.metamodel.Entity>

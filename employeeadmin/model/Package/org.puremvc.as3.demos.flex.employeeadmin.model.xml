@@ -1,0 +1,38 @@
+<fr.echoeslabs.rapid.core.metamodel.Entity>
+  <key>org.puremvc.as3.demos.flex.employeeadmin</key>
+  <relationshipList class="linked-hash-set">
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>org.puremvc.as3.demos.flex.employeeadmin</fromEntity>
+      <relationName>includes</relationName>
+      <toEntity>org.puremvc.as3.demos.flex.employeeadmin.ApplicationFacade</toEntity>
+      <typeID>
+        <key>Component</key>
+      </typeID>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+  </relationshipList>
+  <type>
+    <key>Package</key>
+  </type>
+  <attributes>
+    <entry>
+      <string>c_name</string>
+      <string>org.puremvc.as3.demos.flex.employeeadmin</string>
+    </entry>
+    <entry>
+      <string>c_namespace_id</string>
+      <string>org puremvc as3 demos flex employeeadmin</string>
+    </entry>
+    <entry>
+      <string>c_namespace_camel</string>
+      <string>OrgPuremvcAs3DemosFlexEmployeeadmin</string>
+    </entry>
+    <entry>
+      <string>c_selector</string>
+      <string>org-puremvc-as3-demos-flex-employeeadmin</string>
+    </entry>
+    <entry>
+      <string>c_segment</string>
+      <string-array/>
+    </entry>
+  </attributes>
+</fr.echoeslabs.rapid.core.metamodel.Entity>

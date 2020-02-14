@@ -33,7 +33,7 @@
   </flex-mx-form-item>
  </flex-mx-form>
  <flex-mx-control-bar horizontalAlign="right"> 
-  <flex-mx-button id="submitButton" [click]="submit()" [label]=" ( mode == MODE_ADD )?'Add User':'Update Profile' " [enabled]=" enableSubmit( username.text, confirm.text, password.text, department.selectedItem as DeptEnum ) "> 
+  <flex-mx-button id="submitButton" [click]="submit()" [label]=" ( mode == MODE_ADD )?'Add User':'Update Profile' " [enabled]=" enableSubmit( username.text, confirm.text, password.text, department.selectedItem  ) "> 
   </flex-mx-button>
   <flex-mx-button label="Cancel" [click]="cancel()" [enabled]="user != null"> 
   </flex-mx-button>

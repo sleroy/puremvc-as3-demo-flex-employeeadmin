@@ -136,7 +136,7 @@
 		<!-- Update/Add User Button -->
 		<mx:Button id="submitButton" click="submit()" 
 				   label="{ ( mode == MODE_ADD )?'Add User':'Update Profile' }" 
-				   enabled="{ enableSubmit( username.text, confirm.text, password.text, department.selectedItem as DeptEnum ) }"/>
+				   enabled="{ enableSubmit( username.text, confirm.text, password.text, department.selectedItem  ) }"/>
 		
 		<!-- Cancel Button -->
 		<mx:Button label="Cancel" click="cancel()" 

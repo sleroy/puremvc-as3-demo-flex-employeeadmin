@@ -6,6 +6,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 * Module dependencies
 */
 import { FlexMxUIModule } from 'src/app/shared/modules/flex-mx/flex-mx.module';
+import { GeneralUIModule } from 'src/app/shared/modules/general/general.module';
 import { MXWFlexMxUIModule } from 'src/app/mxwmodule/flex-mx/flex-mx.module';
 
 /**
@@ -34,6 +35,7 @@ import {RolePanel} from './org-puremvc-as3-demos-flex-employeeadmin-view-compone
     CommonModule,
     NgbModule,
       FlexMxUIModule,
+      GeneralUIModule,
       MXWFlexMxUIModule,
   ]
 })

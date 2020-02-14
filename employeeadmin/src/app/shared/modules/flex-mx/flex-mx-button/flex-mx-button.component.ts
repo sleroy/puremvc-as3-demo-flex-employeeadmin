@@ -11,7 +11,7 @@ export class Button implements OnInit {
   constructor() { }
 
    @Input()  id: String;
-   @Input()  label: any;
+   @Input()  label: String;
    @Input()  click: any;
    @Input()  enabled: any;
 

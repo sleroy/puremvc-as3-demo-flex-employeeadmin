@@ -1,0 +1,450 @@
+<fr.echoeslabs.rapid.core.metamodel.Entity>
+  <key>org.puremvc.as3.demos.flex.employeeadmin.view.components.RolePanel</key>
+  <relationshipList class="linked-hash-set">
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>org.puremvc.as3.demos.flex.employeeadmin.view.components.RolePanel</fromEntity>
+      <relationName>uses</relationName>
+      <toEntity>flex.mx.Panel</toEntity>
+      <typeID>
+        <key>Component</key>
+      </typeID>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>org.puremvc.as3.demos.flex.employeeadmin.view.components.RolePanel</fromEntity>
+      <relationName>uses</relationName>
+      <toEntity>flex.mx.Metadata</toEntity>
+      <typeID reference="../../fr.echoeslabs.rapid.core.metamodel.Relationship/typeID"/>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>org.puremvc.as3.demos.flex.employeeadmin.view.components.RolePanel</fromEntity>
+      <relationName>uses</relationName>
+      <toEntity>flex.mx.Script</toEntity>
+      <typeID reference="../../fr.echoeslabs.rapid.core.metamodel.Relationship/typeID"/>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>org.puremvc.as3.demos.flex.employeeadmin.view.components.RolePanel</fromEntity>
+      <relationName>uses</relationName>
+      <toEntity>flex.mx.List</toEntity>
+      <typeID reference="../../fr.echoeslabs.rapid.core.metamodel.Relationship/typeID"/>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>org.puremvc.as3.demos.flex.employeeadmin.view.components.RolePanel</fromEntity>
+      <relationName>uses</relationName>
+      <toEntity>flex.mx.ControlBar</toEntity>
+      <typeID reference="../../fr.echoeslabs.rapid.core.metamodel.Relationship/typeID"/>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>org.puremvc.as3.demos.flex.employeeadmin.view.components.RolePanel</fromEntity>
+      <relationName>uses</relationName>
+      <toEntity>flex.mx.ComboBox</toEntity>
+      <typeID reference="../../fr.echoeslabs.rapid.core.metamodel.Relationship/typeID"/>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+    <fr.echoeslabs.rapid.core.metamodel.Relationship>
+      <fromEntity>org.puremvc.as3.demos.flex.employeeadmin.view.components.RolePanel</fromEntity>
+      <relationName>uses</relationName>
+      <toEntity>flex.mx.Button</toEntity>
+      <typeID reference="../../fr.echoeslabs.rapid.core.metamodel.Relationship/typeID"/>
+    </fr.echoeslabs.rapid.core.metamodel.Relationship>
+  </relationshipList>
+  <type reference="../relationshipList/fr.echoeslabs.rapid.core.metamodel.Relationship/typeID"/>
+  <attributes>
+    <entry>
+      <string>c_name</string>
+      <string>RolePanel</string>
+    </entry>
+    <entry>
+      <string>c_namespace</string>
+      <string>org.puremvc.as3.demos.flex.employeeadmin.view.components</string>
+    </entry>
+    <entry>
+      <string>hasDataBinding</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>hasEvent</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>hasCss</string>
+      <null/>
+    </entry>
+    <entry>
+      <string>c_script</string>
+      <boolean>false</boolean>
+    </entry>
+    <entry>
+      <string>c_namespace_camel</string>
+      <string>OrgPuremvcAs3DemosFlexEmployeeadminViewComponents</string>
+    </entry>
+    <entry>
+      <string>c_namespace_id</string>
+      <string>org puremvc as3 demos flex employeeadmin view components</string>
+    </entry>
+    <entry>
+      <string>c_selector</string>
+      <string>org-puremvc-as3-demos-flex-employeeadmin-view-components-role-panel</string>
+    </entry>
+    <entry>
+      <string>path</string>
+      <path>/home/sleroy/git/puremvc-as3-demo-flex-employeeadmin/src/org/puremvc/as3/demos/flex/employeeadmin/view/components/RolePanel.mxml</path>
+    </entry>
+    <entry>
+      <string>c_type</string>
+      <string>UI</string>
+    </entry>
+    <entry>
+      <string>custom</string>
+      <boolean>true</boolean>
+    </entry>
+    <entry>
+      <string>tree</string>
+      <fr.echoeslabs.rapid.core.genericmodel.GenericModelImpl>
+        <resource class="fr.echoeslabs.rapid.core.workspace.SourceFile">
+          <adapter>
+            <adapters/>
+          </adapter>
+          <decorations>
+            <decorations/>
+          </decorations>
+          <file>RolePanel</file>
+        </resource>
+        <topInstructions class="singleton-list">
+          <fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+            <name>root</name>
+            <dialect>UI</dialect>
+            <instructions>
+              <fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                <name>Panel</name>
+                <dialect>UI</dialect>
+                <instructions>
+                  <fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                    <name>Metadata</name>
+                    <dialect>UI</dialect>
+                    <instructions/>
+                    <attributes>
+                      <entry>
+                        <string>xmlAttrs</string>
+                        <linked-hash-map/>
+                      </entry>
+                      <entry>
+                        <string>qualifiedName</string>
+                        <string>flex.mx.Metadata</string>
+                      </entry>
+                    </attributes>
+                    <parent class="fr.echoeslabs.rapid.core.genericmodel.CoreInstruction" reference="../../.."/>
+                  </fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                  <fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                    <name>Script</name>
+                    <dialect>UI</dialect>
+                    <instructions/>
+                    <attributes>
+                      <entry>
+                        <string>xmlAttrs</string>
+                        <linked-hash-map/>
+                      </entry>
+                      <entry>
+                        <string>qualifiedName</string>
+                        <string>flex.mx.Script</string>
+                      </entry>
+                    </attributes>
+                    <parent class="fr.echoeslabs.rapid.core.genericmodel.CoreInstruction" reference="../../.."/>
+                  </fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                  <fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                    <name>List</name>
+                    <dialect>UI</dialect>
+                    <instructions/>
+                    <attributes>
+                      <entry>
+                        <string>xmlAttrs</string>
+                        <linked-hash-map>
+                          <entry>
+                            <string>id</string>
+                            <string>roleList</string>
+                          </entry>
+                          <entry>
+                            <string>width</string>
+                            <string>100%</string>
+                          </entry>
+                          <entry>
+                            <string>height</string>
+                            <string>100%</string>
+                          </entry>
+                          <entry>
+                            <string>labelField</string>
+                            <string>value</string>
+                          </entry>
+                          <entry>
+                            <string>dataProvider</string>
+                            <string>{userRoles}</string>
+                          </entry>
+                          <entry>
+                            <string>change</string>
+                            <string>selectRoleToRemove()</string>
+                          </entry>
+                        </linked-hash-map>
+                      </entry>
+                      <entry>
+                        <string>qualifiedName</string>
+                        <string>flex.mx.List</string>
+                      </entry>
+                    </attributes>
+                    <parent class="fr.echoeslabs.rapid.core.genericmodel.CoreInstruction" reference="../../.."/>
+                  </fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                  <fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                    <name>ControlBar</name>
+                    <dialect>UI</dialect>
+                    <instructions>
+                      <fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                        <name>ComboBox</name>
+                        <dialect>UI</dialect>
+                        <instructions/>
+                        <attributes>
+                          <entry>
+                            <string>xmlAttrs</string>
+                            <linked-hash-map>
+                              <entry>
+                                <string>id</string>
+                                <string>roleCombo</string>
+                              </entry>
+                              <entry>
+                                <string>labelField</string>
+                                <string>value</string>
+                              </entry>
+                              <entry>
+                                <string>enabled</string>
+                                <string>{user != null}</string>
+                              </entry>
+                              <entry>
+                                <string>dataProvider</string>
+                                <string>{ RoleEnum.comboList }</string>
+                              </entry>
+                              <entry>
+                                <string>change</string>
+                                <string>selectRoleToAdd()</string>
+                              </entry>
+                            </linked-hash-map>
+                          </entry>
+                          <entry>
+                            <string>qualifiedName</string>
+                            <string>flex.mx.ComboBox</string>
+                          </entry>
+                        </attributes>
+                        <parent class="fr.echoeslabs.rapid.core.genericmodel.CoreInstruction" reference="../../.."/>
+                      </fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                      <fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                        <name>Button</name>
+                        <dialect>UI</dialect>
+                        <instructions/>
+                        <attributes>
+                          <entry>
+                            <string>xmlAttrs</string>
+                            <linked-hash-map>
+                              <entry>
+                                <string>label</string>
+                                <string>Add</string>
+                              </entry>
+                              <entry>
+                                <string>click</string>
+                                <string>sendEvent( ADD )</string>
+                              </entry>
+                              <entry>
+                                <string>enabled</string>
+                                <string>{roleCombo.selectedItem != RoleEnum.NONE_SELECTED}</string>
+                              </entry>
+                            </linked-hash-map>
+                          </entry>
+                          <entry>
+                            <string>qualifiedName</string>
+                            <string>flex.mx.Button</string>
+                          </entry>
+                        </attributes>
+                        <parent class="fr.echoeslabs.rapid.core.genericmodel.CoreInstruction" reference="../../.."/>
+                      </fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                      <fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                        <name>Button</name>
+                        <dialect>UI</dialect>
+                        <instructions/>
+                        <attributes>
+                          <entry>
+                            <string>xmlAttrs</string>
+                            <linked-hash-map>
+                              <entry>
+                                <string>label</string>
+                                <string>Remove</string>
+                              </entry>
+                              <entry>
+                                <string>click</string>
+                                <string>sendEvent( REMOVE )</string>
+                              </entry>
+                              <entry>
+                                <string>enabled</string>
+                                <string>{roleList.selectedIndex != -1}</string>
+                              </entry>
+                            </linked-hash-map>
+                          </entry>
+                          <entry>
+                            <string>qualifiedName</string>
+                            <string>flex.mx.Button</string>
+                          </entry>
+                        </attributes>
+                        <parent class="fr.echoeslabs.rapid.core.genericmodel.CoreInstruction" reference="../../.."/>
+                      </fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                    </instructions>
+                    <attributes>
+                      <entry>
+                        <string>xmlAttrs</string>
+                        <linked-hash-map/>
+                      </entry>
+                      <entry>
+                        <string>qualifiedName</string>
+                        <string>flex.mx.ControlBar</string>
+                      </entry>
+                    </attributes>
+                    <parent class="fr.echoeslabs.rapid.core.genericmodel.CoreInstruction" reference="../../.."/>
+                  </fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+                </instructions>
+                <attributes>
+                  <entry>
+                    <string>xmlAttrs</string>
+                    <linked-hash-map>
+                      <entry>
+                        <string>title</string>
+                        <string>User Roles</string>
+                      </entry>
+                      <entry>
+                        <string>status</string>
+                        <string>{user.givenName}</string>
+                      </entry>
+                    </linked-hash-map>
+                  </entry>
+                  <entry>
+                    <string>qualifiedName</string>
+                    <string>flex.mx.Panel</string>
+                  </entry>
+                </attributes>
+                <parent class="fr.echoeslabs.rapid.core.genericmodel.CoreInstruction" reference="../../.."/>
+              </fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+            </instructions>
+            <attributes class="linked-hash-map"/>
+          </fr.echoeslabs.rapid.core.genericmodel.CoreInstruction>
+        </topInstructions>
+      </fr.echoeslabs.rapid.core.genericmodel.GenericModelImpl>
+    </entry>
+    <entry>
+      <string>c_weight</string>
+      <int>8</int>
+    </entry>
+    <entry>
+      <string>c_codes</string>
+      <list>
+        <string>
+			import mx.collections.ArrayCollection;
+			import org.puremvc.as3.demos.flex.employeeadmin.model.vo.UserVO;
+			import org.puremvc.as3.demos.flex.employeeadmin.model.enum.RoleEnum;
+
+			public static const ADD:String = &quot;add&quot;;
+			public static const REMOVE:String = &quot;remove&quot;;
+
+			[Bindable] public var user:UserVO;
+			[Bindable] public var selectedRole:RoleEnum;
+			[Bindable] public var userRoles:ArrayCollection;
+			
+			// send the named event
+			private function sendEvent( eventName:String ):void
+			{
+				dispatchEvent( new Event( eventName, true ) );
+			}
+			
+			// select role to remove
+			private function selectRoleToRemove():void
+			{
+				roleCombo.selectedItem = RoleEnum.NONE_SELECTED;
+				selectedRole=RoleEnum( roleList.selectedItem );
+			}
+			
+			// select role to add
+			private function selectRoleToAdd():void
+			{
+				roleList.selectedIndex = -1;
+				selectedRole=RoleEnum (roleCombo.selectedItem );
+			}
+			
+			public function reset():void
+			{
+				roleCombo.selectedItem = RoleEnum.NONE_SELECTED;
+			}			
+		</string>
+      </list>
+    </entry>
+    <entry>
+      <string>c_declarations</string>
+      <list/>
+    </entry>
+    <entry>
+      <string>c_attributes</string>
+      <map>
+        <entry>
+          <string>id</string>
+          <string>rolePanel</string>
+        </entry>
+        <entry>
+          <string>height</string>
+          <string>100%</string>
+        </entry>
+      </map>
+    </entry>
+    <entry>
+      <string>has_height</string>
+      <boolean>true</boolean>
+    </entry>
+    <entry>
+      <string>c_propdefs</string>
+      <list>
+        <com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
+          <name>id</name>
+          <type>String</type>
+          <hasCode>false</hasCode>
+          <propertyType>INPUT</propertyType>
+        </com.byoskill.rapid.flexangular.metamodel.PropertyDefinition>
+      </list>
+    </entry>
+    <entry>
+      <string>c_imports</string>
+      <list>
+        <com.byoskill.rapid.flexangular.angularapp.actionscript.QualifiedName>
+          <fragments>
+            <string>mx</string>
+            <string>collections</string>
+            <string>ArrayCollection</string>
+          </fragments>
+        </com.byoskill.rapid.flexangular.angularapp.actionscript.QualifiedName>
+        <com.byoskill.rapid.flexangular.angularapp.actionscript.QualifiedName>
+          <fragments>
+            <string>org</string>
+            <string>puremvc</string>
+            <string>as3</string>
+            <string>demos</string>
+            <string>flex</string>
+            <string>employeeadmin</string>
+            <string>model</string>
+            <string>vo</string>
+            <string>UserVO</string>
+          </fragments>
+        </com.byoskill.rapid.flexangular.angularapp.actionscript.QualifiedName>
+        <com.byoskill.rapid.flexangular.angularapp.actionscript.QualifiedName>
+          <fragments>
+            <string>org</string>
+            <string>puremvc</string>
+            <string>as3</string>
+            <string>demos</string>
+            <string>flex</string>
+            <string>employeeadmin</string>
+            <string>model</string>
+            <string>enum</string>
+            <string>RoleEnum</string>
+          </fragments>
+        </com.byoskill.rapid.flexangular.angularapp.actionscript.QualifiedName>
+      </list>
+    </entry>
+  </attributes>
+</fr.echoeslabs.rapid.core.metamodel.Entity>

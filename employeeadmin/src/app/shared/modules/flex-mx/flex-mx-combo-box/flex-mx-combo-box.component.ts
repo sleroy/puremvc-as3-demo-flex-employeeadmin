@@ -15,6 +15,7 @@ export class ComboBox implements OnInit {
    @Input()  enabled: any;
    @Input()  labelField: String;
    @Input()  selectedIndex: any;
+   @Input()  change: any;
 
 
   ngOnInit() {

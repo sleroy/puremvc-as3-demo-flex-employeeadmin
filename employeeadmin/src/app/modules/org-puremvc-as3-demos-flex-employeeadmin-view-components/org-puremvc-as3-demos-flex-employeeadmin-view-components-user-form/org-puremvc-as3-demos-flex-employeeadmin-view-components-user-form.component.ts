@@ -10,6 +10,7 @@ export class UserForm implements OnInit {
 
   constructor() { }
 
+   @Input()  id: String;
 
 
   ngOnInit() {
