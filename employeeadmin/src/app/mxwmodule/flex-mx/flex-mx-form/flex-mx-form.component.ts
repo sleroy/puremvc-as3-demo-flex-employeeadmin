@@ -10,6 +10,7 @@ export class Form implements OnInit {
 
   constructor() { }
 
+  @Input() enabled: boolean;
 
 
   ngOnInit() {

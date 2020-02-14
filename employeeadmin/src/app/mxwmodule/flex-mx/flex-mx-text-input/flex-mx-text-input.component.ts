@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, Output, OnChanges, SimpleChange, HostBinding, EventEmitter  } from '@angular/core';
+import { Component, OnInit, Input, Output, OnChanges, SimpleChange, HostBinding, EventEmitter } from '@angular/core';
 
 
 @Component({
@@ -10,15 +10,16 @@ export class TextInput implements OnInit {
 
   constructor() { }
 
-   @Input()  id: String;
-   @Input()  label: String;
-   @Input()  text: String;
-   @Output() onTextValueChanged = new EventEmitter<boolean>();
+  @Input() id: String;
+  @Input() label: String;
+  @Input() text: String;
+  @Output() onTextValueChanged = new EventEmitter<boolean>();
+  @Input() enabled: boolean;
 
   ngOnInit() {
   }
 
-  onChange(event){
+  onChange(event) {
     this.onTextValueChanged.emit(event)
   }
 }
