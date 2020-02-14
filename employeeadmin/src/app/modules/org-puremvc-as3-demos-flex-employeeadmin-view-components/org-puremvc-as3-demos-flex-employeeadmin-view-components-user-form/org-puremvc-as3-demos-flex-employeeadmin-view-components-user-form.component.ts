@@ -11,7 +11,22 @@ export class UserForm implements OnInit {
   constructor() { }
 
    @Input()  id: String;
+   @Input()  user= {
+     username: ""
+   };
 
+   @Input()  DeptEnum= {
+     comboList: []
+   }
+   ;
+
+   submit() {
+
+   }
+
+   cancel() {
+     
+   }
 
   ngOnInit() {
   }

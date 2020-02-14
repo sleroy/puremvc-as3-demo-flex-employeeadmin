@@ -16,4 +16,8 @@ export class Form implements OnInit {
   ngOnInit() {
   }
 
+  submit() {
+    
+  }
+
 }

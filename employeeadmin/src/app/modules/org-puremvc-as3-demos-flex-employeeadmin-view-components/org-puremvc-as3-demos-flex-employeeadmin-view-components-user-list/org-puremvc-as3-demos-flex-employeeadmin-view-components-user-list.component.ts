@@ -11,6 +11,8 @@ export class UserList implements OnInit {
   constructor() { }
 
    @Input()  id: String;
+   @Input() users: Array = []
+   @Input() selectedIndex: number
 
 
   ngOnInit() {
